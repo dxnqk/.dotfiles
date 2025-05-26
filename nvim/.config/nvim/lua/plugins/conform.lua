@@ -10,6 +10,7 @@ return {
         lua = { "stylua" },
         markdown = { "prettier" },
         php = { "php-cs-fixer" },
+        sh = { "shfmt" },
       },
     },
     keys = {

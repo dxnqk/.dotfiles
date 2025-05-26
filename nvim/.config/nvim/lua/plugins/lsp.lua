@@ -35,6 +35,7 @@ return {
         jsonls = true,
         lua_ls = true,
         phpactor = true,
+        shellcheck = true,
         tailwindcss = true,
       }
 
@@ -42,6 +43,7 @@ return {
       vim.list_extend(ensure_installed, {
         "php-cs-fixer",
         "prettier",
+        "shfmt",
         "stylua",
       })
 

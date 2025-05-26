@@ -5,6 +5,7 @@ return {
     config = function()
       require("nvim-treesitter.configs").setup({
         ensure_installed = {
+          "bash",
           "c",
           "css",
           "html",
@@ -12,6 +13,7 @@ return {
           "lua",
           "markdown",
           "php",
+          "yaml",
         },
         auto_install = false,
         sync_install = false,
