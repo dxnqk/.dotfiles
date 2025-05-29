@@ -31,6 +31,7 @@ return {
 
       local servers = {
         cssls = true,
+        gopls = true,
         html = true,
         jsonls = true,
         lua_ls = true,

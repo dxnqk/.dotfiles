@@ -4,6 +4,7 @@ return {
     opts = {
       formatters_by_ft = {
         css = { "prettier" },
+        go = { "gopls" },
         html = { "prettier" },
         javascript = { "prettier" },
         json = { "prettier" },
