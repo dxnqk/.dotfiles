@@ -36,19 +36,19 @@ export LESSHISTFILE=-
 export HYPRCURSOR_SIZE=24
 export XCURSOR_SIZE=24
 
-# append_path () {
-#     case ":$PATH:" in
-#         *:"$1":*) ;;
-#         *) PATH="${PATH:+$PATH:}$1" ;;
-#     esac
-# }
+append_path () {
+    case ":$PATH:" in
+        *:"$1":*) ;;
+        *) PATH="${PATH:+$PATH:}$1" ;;
+    esac
+}
 
-# append_path "$HOME/.local/bin"
-# append_path "$GOPATH/bin"
+append_path "$HOME/.local/bin"
+append_path "$GOPATH/bin"
 
-# unset -f append_path
+unset -f append_path
 
-# export PATH
+export PATH
 
 [ "$(tty)" = /dev/tty1 ] && Hyprland
 
