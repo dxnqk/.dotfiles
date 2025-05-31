@@ -12,6 +12,7 @@ return {
           "html",
           "javascript",
           "lua",
+          "make",
           "markdown",
           "php",
           "yaml",
