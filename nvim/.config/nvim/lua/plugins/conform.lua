@@ -4,13 +4,11 @@ return {
     opts = {
       formatters_by_ft = {
         css = { "prettier" },
-        go = { "gopls" },
-        html = { "prettier" },
+        html = { "prettier", "rustywind" },
         javascript = { "prettier" },
         json = { "prettier" },
         lua = { "stylua" },
         markdown = { "prettier" },
-        php = { "php-cs-fixer" },
         sh = { "shfmt" },
       },
     },

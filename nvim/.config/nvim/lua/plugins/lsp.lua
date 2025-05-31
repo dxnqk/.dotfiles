@@ -44,6 +44,7 @@ return {
       vim.list_extend(ensure_installed, {
         "php-cs-fixer",
         "prettier",
+        "rustywind",
         "shfmt",
         "stylua",
       })
