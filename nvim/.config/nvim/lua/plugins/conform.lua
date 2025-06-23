@@ -11,13 +11,9 @@ return {
         markdown = { "prettier" },
         sh = { "shfmt" },
       },
-    },
-    keys = {
-      {
-        "<leader>fmt",
-        function()
-          require("conform").format({ async = true, lsp_format = "fallback" })
-        end,
+      format_on_save = {
+        lsp_format = "fallback",
+        timeout_ms = 500,
       },
     },
   },
